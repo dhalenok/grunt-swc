@@ -16,9 +16,7 @@
     "node": ">=6.9"
   },
   "scripts": {
-    "lint": "eslint .",
-    "format": "eslint . --fix",
-    "test": "yarn lint && grunt"
+    "test": "grunt"
   },
   "files": [
     "tasks"
