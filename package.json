@@ -40,10 +40,10 @@
   },
   "devDependencies": {
     "@swc/core": "^1.2.246",
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt": "^1.5.3",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-nodeunit": "^4.0.0",
     "prettier": "2.7.1"
   }
 }
