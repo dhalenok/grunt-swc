@@ -1,11 +1,10 @@
 "use strict";
 module.exports = function(grunt) {
   grunt.initConfig({
-    babel: {
+    swc: {
       compile: {
         options: {
-          sourceMap: true,
-          presets: ["@babel/preset-env"],
+          sourceMaps: true,
         },
         files: {
           "test/tmp/fixture-compiled.js": "test/fixtures/fixture.js",
@@ -24,5 +23,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-contrib-nodeunit");
 
-  grunt.registerTask("default", ["clean", "babel", "nodeunit", "clean"]);
+  grunt.registerTask("default", ["clean", "swc", "nodeunit", "clean"]);
 };
